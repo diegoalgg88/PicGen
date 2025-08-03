@@ -1,0 +1,58 @@
+{
+  "grid_2x2": {
+    "name": "Cuadrícula 2x2",
+    "description": "Organiza 4 imágenes en una cuadrícula de 2 filas y 2 columnas.",
+    "layout": [
+      [1, 1],
+      [1, 1]
+    ],
+    "spacing": 10,
+    "min_images": 4,
+    "max_images": 4
+  },
+  "grid_1x3": {
+    "name": "Columna 1x3",
+    "description": "Organiza 3 imágenes en una sola columna.",
+    "layout": [
+      [1],
+      [1],
+      [1]
+    ],
+    "spacing": 10,
+    "min_images": 3,
+    "max_images": 3
+  },
+  "grid_3x1": {
+    "name": "Fila 3x1",
+    "description": "Organiza 3 imágenes en una sola fila.",
+    "layout": [
+      [1, 1, 1]
+    ],
+    "spacing": 10,
+    "min_images": 3,
+    "max_images": 3
+  },
+  "main_plus_2_side": {
+    "name": "Principal + 2 Laterales",
+    "description": "Una imagen grande a la izquierda y dos más pequeñas apiladas a la derecha.",
+    "layout": [
+      [1, 2],
+      [1, 2]
+    ],
+    "spacing": 10,
+    "min_images": 3,
+    "max_images": 3
+  },
+  "main_plus_3_side": {
+    "name": "Principal + 3 Laterales",
+    "description": "Una imagen grande a la izquierda y tres más pequeñas apiladas a la derecha.",
+    "layout": [
+      [1, 2],
+      [1, 2],
+      [1, 2]
+    ],
+    "spacing": 10,
+    "min_images": 4,
+    "max_images": 4
+  }
+}

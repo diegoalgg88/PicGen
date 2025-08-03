@@ -1,0 +1,7 @@
+colorama
+dotenv
+Pillow
+requests
+tqdm
+Wand
+streamlit

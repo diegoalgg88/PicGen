@@ -1,0 +1,108 @@
+{
+  "retrato": {
+    "base": "Retrato profesional de {sujeto}, {estilo}, alta calidad, rostro detallado, iluminación perfecta",
+    "placeholders": {
+      "sujeto": {
+        "description": "El sujeto principal del retrato.",
+        "examples": ["una joven con cabello rojo", "un anciano con una larga barba", "un niño con una expresión curiosa"]
+      },
+      "estilo": {
+        "description": "El estilo artístico del retrato.",
+        "examples": ["fotorrealista", "pintura al óleo", "boceto a carboncillo", "anime"]
+      }
+    },
+    "params": {
+      "width": 768,
+      "height": 1024,
+      "model": "flux-realism"
+    }
+  },
+  "paisaje": {
+    "base": "Hermoso paisaje de {ubicacion}, {momento_del_dia}, {clima}, vista escénica, fotografía de naturaleza",
+    "placeholders": {
+      "ubicacion": {
+        "description": "La ubicación del paisaje.",
+        "examples": ["una playa serena al atardecer", "una majestuosa cadena montañosa", "un frondoso bosque verde", "un bullicioso paisaje urbano"]
+      },
+      "momento_del_dia": {
+        "description": "El momento del día para el paisaje.",
+        "examples": ["hora dorada", "mediodía", "hora azul", "noche"]
+      },
+      "clima": {
+        "description": "Las condiciones climáticas.",
+        "examples": ["cielos despejados", "nubes de tormenta", "lluvia suave", "niebla brumosa"]
+      }
+    },
+    "params": {
+      "width": 1536,
+      "height": 768,
+      "model": "flux"
+    }
+  },
+  "criatura_fantastica": {
+    "base": "Una {tipo_de_criatura} en un {entorno}, {accion}, muy detallado, arte de fantasía, iluminación cinematográfica",
+    "placeholders": {
+      "tipo_de_criatura": {
+        "description": "El tipo de criatura fantástica.",
+        "examples": ["un majestuoso dragón", "un duende travieso", "un fénix elegante", "una temible hidra"]
+      },
+      "entorno": {
+        "description": "El entorno donde se encuentra la criatura.",
+        "examples": ["una cueva oscura y misteriosa", "un bosque encantado", "una isla flotante en el cielo", "un castillo en ruinas"]
+      },
+      "accion": {
+        "description": "La acción que realiza la criatura.",
+        "examples": ["escupiendo fuego", "lanzando un hechizo", "volando por las nubes", "custodiando un tesoro"]
+      }
+    },
+    "params": {
+      "width": 1024,
+      "height": 1024,
+      "model": "flux-pro"
+    }
+  },
+  "foto_de_producto": {
+    "base": "Una foto de producto profesional de un {producto}, {fondo}, {iluminacion}, fotografía comercial",
+    "placeholders": {
+      "producto": {
+        "description": "El producto a fotografiar.",
+        "examples": ["un elegante smartphone", "un reloj de lujo", "una botella de perfume", "un par de zapatillas con estilo"]
+      },
+      "fondo": {
+        "description": "El fondo para la foto del producto.",
+        "examples": ["sobre una superficie blanca y limpia", "con un paisaje urbano borroso detrás", "sobre una mesa de madera rústica", "con un fondo de color vibrante"]
+      },
+      "iluminacion": {
+        "description": "La configuración de iluminación para la foto del producto.",
+        "examples": ["suave y difusa", "dramática y de alto contraste", "natural y brillante", "iluminación de estudio"]
+      }
+    },
+    "params": {
+      "width": 1024,
+      "height": 1024,
+      "model": "flux-realism"
+    }
+  },
+  "arte_abstracto": {
+    "base": "Una obra de arte abstracta con {formas}, {colores}, {textura}, arte moderno, expresivo",
+    "placeholders": {
+      "formas": {
+        "description": "Las formas utilizadas en el arte abstracto.",
+        "examples": ["patrones geométricos", "líneas orgánicas y fluidas", "formas nítidas y angulares", "una explosión caótica de formas"]
+      },
+      "colores": {
+        "description": "La paleta de colores del arte abstracto.",
+        "examples": ["un esquema de colores vibrante y audaz", "una paleta monocromática", "una combinación de colores suaves y pastel", "un diseño de alto contraste en blanco y negro"]
+      },
+      "textura": {
+        "description": "La textura del arte abstracto.",
+        "examples": ["un acabado liso y brillante", "una superficie rugosa y texturizada", "una calidad metálica y reflectante", "una apariencia suave y mate"]
+      }
+    },
+    "params": {
+      "width": 1024,
+      "height": 1024,
+      "model": "flux"
+    }
+  }
+}
